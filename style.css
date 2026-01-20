@@ -372,3 +372,58 @@ body {
      color: #00FF88;
 
 }
+/* meet the host desing */
+.host-container {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 120px;
+    border-radius: 15px;
+    background-color: #533C72;
+    height: 300px;
+    width: 1200px;
+}
+
+.container {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+
+}
+
+.host-desingh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    width: 1350px;
+    height: 280px;
+    
+
+}
+
+.host-text {
+    display: grid;
+
+}
+
+.social-link {
+    width: 184px;
+    height: 40px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+
+.alex{
+    margin-bottom: 9px;
+    font-size: 30px;
+}
