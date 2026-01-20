@@ -19,3 +19,286 @@ body {
      font-family: "Inter", sans-serif;
 }
 
+/* Navbar style */
+.container-nav {
+     width: 100%;
+
+
+
+}
+
+.navbar {
+     height: 92px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 16px 200px;
+}
+
+.techwave {
+     font-size: 35px;
+     color: white;
+}
+
+.wave {
+     color: #DB489F;
+}
+
+.nav-links {
+     display: flex;
+     gap: 32px;
+     list-style: none;
+
+}
+
+.nav-links a {
+     text-decoration: none;
+     color: white;
+     font-size: 16px;
+}
+
+.btn {
+     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+     border: 0.2px solid pink;
+     border-radius: 1000px;
+     padding: 12px;
+     font-size: 1rem;
+     color: #FFFFFF;
+     width: 135px;
+     height: 44px;
+     cursor: pointer;
+}
+@keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+.bt {
+     cursor: pointer;
+     
+}
+.new{
+     animation: bounce 1s infinite;
+}
+.bt:hover {
+     background-color: rgb(252, 1, 1);
+     color: #2fff00;
+     border-radius: 5px;
+}
+
+.btn-1 {
+     background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+     display: flex;
+     flex-direction: row;
+     padding: 12px;
+     font-size: 1rem;
+     color: #FFFFFF;
+     border-radius: 10000px;
+     gap: 8px;
+     padding: 12px 20px;
+     width: 201px;
+     height: 44px;
+}
+
+.nav-btn {
+     display: flex;
+     gap: 8px;
+
+}
+
+/* banar sectio  */
+.banner-section {
+     width: 100%;
+     height: 100%;
+     background-image: url(/assets/hero-bg.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.section-img {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+
+.preant-img {
+     position: relative;
+     margin-top: 100px;
+
+}
+
+.microphone {
+     position: absolute;
+}
+
+.new {
+     position: relative;
+     top: -140px;
+     margin-left: -90px;
+     background-color: #00FF88;
+     border-radius: 16px;
+     padding: 8px;
+     font-size: 18px;
+     font-weight: 700;
+     width: 100%;
+     height: 100%;
+
+}
+
+.tech-text {
+     text-align: center;
+     color: white;
+     margin-top: 40px;
+     font-size: 60px;
+}
+
+.banner-description {
+     font-size: 16;
+     font-weight: 400;
+     color: white;
+     margin-top: 8px;
+}
+
+.subscribe-btn {
+     display: flex;
+     gap: 8px;
+     border: 1px solid #00FF88;
+     border-radius: 40px;
+     padding: 12px 20px;
+     background: none;
+
+
+}
+
+.subscribe-btn {
+     color: #00FF88;
+     font-size: 16px;
+
+}
+
+
+
+.spotify-btn {
+     margin-top: 24px;
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+
+}
+
+/* about section style */
+.about-section {
+     text-align: center;
+
+}
+
+.border {
+     border-bottom: 2px solid #3116e0;
+     margin: 80px 200px;
+}
+
+.section-discription h1 {
+     font-weight: 900;
+     color: #FFFFFF;
+     font-size: 48px;
+     margin-top: 150px;
+}
+
+.section-discription p {
+     font-weight: 400;
+     color: #FFFFFF;
+     font-size: 16px;
+     margin-bottom: 80px;
+}
+
+.dashbord {
+     display: flex;
+     justify-content: space-around;
+
+}
+
+.dashbord h1 {
+     color: #00FF88;
+     font-size: 48px;
+}
+
+.dashbord p {
+     font-size: 16px;
+     font-weight: 400;
+     color: #FFFFFF;
+     padding: 16px;
+}
+
+.dashbord-div {
+     text-align: center;
+}
+
+.techWave>* {
+     background-color: #351165;
+     padding: 40px;
+     border-radius: 40px;
+}
+
+.audio {
+     grid-area: audio;
+
+}
+
+.device {
+     grid-area: device;
+}
+
+.global {
+     grid-area: global;
+}
+
+.enterview {
+     grid-area: enterview;
+}
+
+.resource {
+     grid-area: resource;
+}
+
+.techWave {
+     display: grid;
+     gap: 30px;
+     margin-left: 200px;
+     margin-right: 200px;
+     justify-content: center;
+     grid-template-areas:
+          "audio device device "
+          "audio global global"
+          " enterview enterview resource "
+
+     ;
+
+}
+
+.parent-container {
+     background-color: #230E3D;
+}
+
+.choose {
+     text-align: center;
+     font-size: 48px;
+     padding: 80px;
+     font: bold;
+     color: #FFFFFF;
+
+
+}
+
+/* featured episodes style */
