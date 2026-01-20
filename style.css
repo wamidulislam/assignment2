@@ -302,3 +302,73 @@ body {
 }
 
 /* featured episodes style */
+
+.featured-container {
+     margin-top: 120px;
+     margin-bottom: 120px;
+
+}
+
+
+
+.featured-container h1 {
+     text-align: center;
+     font: bold;
+     font-size: 48px;
+     color: #FFFFFF;
+     margin-bottom: 40px;
+
+}
+
+.container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     margin: 0 auto;
+     gap: 30px;
+}
+
+
+
+.container-box {
+     border-radius: 24px;
+     background-color: #250D44;
+}
+
+.container-box iframe {
+     width: 380px;
+     height: 214px;
+     border-radius: 20px;
+
+}
+
+
+
+.container h3 {
+     font-size: 22px;
+     color: #FFFFFF;
+     padding: 24px;
+
+}
+
+.container-box p {
+     font-size: 16px;
+     color: gray;
+     padding: 24px;
+}
+
+.container img {
+     color: white;
+}
+
+.clock {
+     display: flex;
+     font-size: 20px;
+     gap: 4px;
+     padding: 24px;
+
+}
+
+.min {
+     color: #00FF88;
+
+}
