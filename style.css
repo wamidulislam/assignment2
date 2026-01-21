@@ -504,9 +504,40 @@ margin-bottom: 20px;
      width: 100%;
 
 }
-     .host-desingh{
-     display: none;
-     }
+     /* hosting style responsive */
+      .host-container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .host-desingh {
+        flex-direction: column; 
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .social-link {
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    /* Footer Responsive */
+    .section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .container-h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .icon {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
 
 }
 
