@@ -419,7 +419,6 @@ body {
 /* footer section style */
 .section{
     background-image: url(./assets/footer-bg.png);
-    width: full;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -470,7 +469,7 @@ margin-bottom: 20px;
           display: none;
      }
      .banner-section{
-          background-size:100%;
+          background-size:100% auto;
      }
      .preant-img{
           margin-top: 0px;
@@ -497,6 +496,18 @@ margin-bottom: 20px;
           margin: 0 auto;
 
      }
+    .container{
+     flex-direction: column;
+    }
+    .host-container{
+     margin: 0 auto;
+     width: 100%;
+
+}
+     .host-desingh{
+     display: none;
+     }
+
 }
 
 
