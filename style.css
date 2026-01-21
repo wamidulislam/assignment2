@@ -454,3 +454,49 @@ margin-bottom: 20px;
     color:#FAFAFA;
     margin-top: 30px;
 }
+
+
+@media screen and (max-width:576px){
+    
+     .navbar{
+          justify-content: flex-start;
+          padding: 0%;
+          margin-left: 10px;
+     }
+     .nav-links{
+          display: none;
+     }
+     .nav-btn{
+          display: none;
+     }
+     .banner-section{
+          background-size:100%;
+     }
+     .preant-img{
+          margin-top: 0px;
+     }
+     .banner-description{
+          font-size: 20px;
+          margin-right: 10px;
+          margin-left: 7px;
+          text-align: center;
+     }
+     .dashbord{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          grid-template-rows: repeat(2,1fr);
+     }
+     .choose{
+          font-size: 30px;
+          padding-left: 2px;
+     }
+     .techWave{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          margin: 0 auto;
+
+     }
+}
+
+
