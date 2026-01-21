@@ -453,13 +453,19 @@ margin-bottom: 20px;
     color:#FAFAFA;
     margin-top: 30px;
 }
+     .hide-thako{
+          display: none;
+     }
 
 
 @media screen and (max-width:576px){
     
      .navbar{
-          justify-content: flex-start;
+          /* justify-content: flex-start; */
           padding: 0%;
+          margin-right: 20px;
+          margin-top: 18px;
+          margin-bottom: 18px;
           margin-left: 10px;
      }
      .nav-links{
@@ -499,6 +505,9 @@ margin-bottom: 20px;
     .container{
      flex-direction: column;
     }
+    .featured-container{
+     padding: 40px;
+    }
     .host-container{
      margin: 0 auto;
      width: 100%;
@@ -537,6 +546,15 @@ margin-bottom: 20px;
     .icon {
         flex-wrap: wrap; 
         justify-content: center;
+    }
+    .hide-thako{
+       display: block;
+          cursor: pointer;
+     
+    }
+    .container h2{
+     font-size: 32px;
+     text-align: center;
     }
 
 }
